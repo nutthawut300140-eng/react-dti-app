@@ -1,10 +1,11 @@
-//rfc
-import NavBarMain from "./../components/NavBarMain"
+import NavBarMain from "../components/NavBarMain"
+import Footer from "../components/Footer"
+
 export default function Home() {
     return (
         <>
             <NavBarMain />
-            <h1 className="text-center font-bold text-4xl text-blue-700 font-Itim">
+            <h1 className="text-center font-bold text-4xl text-blue-700 font-itim">
                 Welcome to SAU
             </h1>
             <h1 className="text-center font-bold text-4xl text-red-700 font-kanit">
@@ -17,7 +18,8 @@ export default function Home() {
             <h3 className="text-center font-charm my-5 font-bold">
                 ยินดีต้อนรับทุกท่าน Wow Wow Wow
             </h3>
-        <hr className="my-5 w-[80%] mx-auto"/>
-        </> 
+            <hr className="my-5 w-[80%] mx-auto"/>
+            <Footer />
+        </>
     )
 }

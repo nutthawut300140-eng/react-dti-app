@@ -1,6 +1,6 @@
 //rfc
-import NavBarMain from "./../components/NavBarMain"
-export default function Home() {
+
+export default function Contact() {
     return (
         <>
             <h1 className="text-center font-bold text-4xl text-blue-700 font-itim">

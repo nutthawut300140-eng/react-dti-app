@@ -1,6 +1,6 @@
 //rfc
 
-export default function Home() {
+export default function Smartphone() {
     return (
         <>
             <h1 className="text-center font-bold text-4xl text-blue-700 font-itim">
